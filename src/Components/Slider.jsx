@@ -6,7 +6,6 @@ export default class Slider extends Component {
     this.state = {
       range: '50'
     };
-    this.handleSliderChange = this.handleSliderChange.bind(this);
   }
 
   componentDidMount() {
@@ -23,7 +22,7 @@ export default class Slider extends Component {
     //   })
   }
 
-  handleSliderChange(e) {
+  handleSliderChange = (e) => {
     let range = e.target.value
     this.setState({range})
   }

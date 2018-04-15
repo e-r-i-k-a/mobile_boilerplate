@@ -9,7 +9,6 @@ export default class Home extends Component {
     this.state = {
       id: ''
     };
-    this.doSomething = this.doSomething.bind(this);
   }
 
   componentDidMount() {
@@ -26,7 +25,7 @@ export default class Home extends Component {
     //   })
   }
 
-  doSomething(e, id) {
+  doSomething = (e, id) => {
     e.preventDefault();
   }
 

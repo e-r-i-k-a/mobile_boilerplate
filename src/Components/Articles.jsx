@@ -6,7 +6,6 @@ export default class Articles extends Component {
 		super(props);
 		this.state = {
 		};
-		this.doSomething = this.doSomething.bind(this);
 	}
 
 	componentDidMount () {
@@ -17,7 +16,7 @@ export default class Articles extends Component {
     // })
 	}
 
-  doSomething(e, id) {
+  doSomething = (e, id) => {
 		e.preventDefault();
   }
 
