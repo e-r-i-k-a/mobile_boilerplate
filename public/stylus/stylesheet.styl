@@ -9,11 +9,22 @@ nav
   background-color primary
   color secondary
   border-radius()
-
-button
+a
+  padding 0
   margin 10px
 
+button
+  font-size 1.2em
+  background-color button
+  &:hover
+    background-color buttonhover
+  border 2px outset black
+  padding 5px
+  cursor pointer
+  border-radius()
+
 // Tablet Styles
+
 @media tablet
   nav
     display flex
