@@ -18,9 +18,8 @@ export default class NavBar extends Component {
           <Link to={'/articles'}>
             <button>Articles</button>
           </Link>
-        </nav >
-        <hr />
-      </div >
+        </nav>
+      </div>
     )
   }
 }
