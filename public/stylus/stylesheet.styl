@@ -1,12 +1,22 @@
 @import 'public/stylus/index'
 
+// Default Mobile Styles
+
 nav
-  background-color secondary
-  color tertiary
+  display flex
+  align-items center
+  justify-content center
+  background-color primary
+  color secondary
   border-radius()
 
-@media phone
+button
+  margin 10px
+
+// Tablet Styles
+@media tablet
   nav
+    display flex
     background-color primary
     color secondary
     border-radius()

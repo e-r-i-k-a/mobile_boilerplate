@@ -19,7 +19,6 @@ export default class NavBar extends Component {
             <button>Articles</button>
           </Link>
         </nav>
-        <hr />
       </div>
     )
   }
